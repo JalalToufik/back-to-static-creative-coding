@@ -4,47 +4,32 @@
 
 <div class="container">
     <h1>
-        <div class="title-where word">
-            <span>W</span>
-            <span>H</span>
-            <span>E</span>
-            <span>R</span>
-            <span>E</span>
-        </div>
-        <div class="title-the-real word">
-            <div>
-                <span>T</span>
-                <span>H</span>
-                <span>E</span>
-            </div>
-            <div>
-                <span>R</span>
-                <span>E</span>
-                <span>A</span>
-                <span>L</span>
-            </div>
-        </div>
-        <div class="title-legends word">
-            <span>L</span>
-            <span>E</span>
-            <span>G</span>
-            <span>E</span>
-            <span>N</span>
-            <span>D</span>
+        <div class="title-post word">
+            <span>P</span>
+            <span>O</span>
             <span>S</span>
+            <span>T</span>
         </div>
-        <div class="title-begin word">
-            <span>B</span>
-            <span>E</span>
-            <span>G</span>
+        <div class="title-apocalyptic word">
+            <span>A</span>
+            <span>P</span>
+            <span>O</span>
+            <span>C</span>
+            <span>A</span>
+            <span>L</span>
+            <span>Y</span>
+            <span>P</span>
+            <span>T</span>
             <span>I</span>
-            <span>N.</span>
+            <span>C</span>
         </div>
     </h1>
 </div>
 
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
     .container {
         display: flex;
@@ -54,59 +39,82 @@
     }
 
     h1 {
-        font-weight: normal;
         color: var(--White);
+        font-family: var(--Header-Font2);
     }
 
     .container span {
         font-size: clamp(36px, 9vw, 128px);
-        font-family: 'Kirang Haerang';
+        font-family: var(--Header-Font2);
         text-transform: uppercase;
         display: flex;
         height: fit-content;
         line-height: 62%;
     }
 
-    .title-where, .title-the-real, .title-the-real div, .title-legends, .title-begin {
+    .title-post, .title-apocalyptic {
         display: flex;
         align-items: flex-end;
     }
 
-    .title-where span:nth-of-type(1),
-    .title-where span:nth-of-type(2),
-    .title-the-real>div:nth-of-type(2) span:nth-of-type(2) {
-        font-size: clamp(2rem, 11.5vw, 168px);
-    }
-
-    .title-legends span:nth-of-type(1),
-    .title-legends span:nth-of-type(7) {
-        font-size: clamp(36px, 9vw, 128px);
-    }
-
-
-    .word{
+    span{
         transform:translateY(-100vh);
         animation: drop 3.1s linear forwards;
     }
 
-    .title-where{
-        animation-delay: 0.2s;
+    .title-post{
+        color: var(--Yellow-Primary);
     }
 
-    .title-the-real{
-        gap: .4em;
+    .title-post span:nth-child(1){
+        animation-delay: 0.1s;
+    }
+    .title-post span:nth-child(2){
+        animation-delay: 0.2s;
+    }
+    .title-post span:nth-child(3){
+        animation-delay: 0.3s;
+    }
+    .title-post span:nth-child(4){
         animation-delay: 0.4s;
     }
 
-    .title-legends{
-        color: var(--Yellow-Primary);
-        font-size: clamp(40px, 10vw, 144px);
+    /* ====================== */
+
+    .title-apocalyptic span:nth-child(1){
+        animation-delay: 0.5s;
+    }
+    .title-apocalyptic span:nth-child(2){
         animation-delay: 0.6s;
     }
-
-    .title-begin{
+    .title-apocalyptic span:nth-child(3){
+        animation-delay: 0.7s;
+    }
+    .title-apocalyptic span:nth-child(4){
         animation-delay: 0.8s;
     }
+    .title-apocalyptic span:nth-child(5){
+        animation-delay: 0.9s;
+    }
+    .title-apocalyptic span:nth-child(6){
+        animation-delay: 1.0s;
+    }
+    .title-apocalyptic span:nth-child(7){
+        animation-delay: 1.1s;
+    }
+    .title-apocalyptic span:nth-child(8){
+        animation-delay: 1.2s;
+    }
+    .title-apocalyptic span:nth-child(9){
+        animation-delay: 1.3s;
+    }
+    .title-apocalyptic span:nth-child(10){
+        animation-delay: 1.4s;
+    }
+    .title-apocalyptic span:nth-child(11){
+        animation-delay: 1.5s;
+    }
+
 
     h1 > div{
         padding: .1em;

@@ -10,7 +10,7 @@
 
     <div class="hero-video">
         <video playsinline autoplay muted loop>
-            <source src="/assets/Temporary-video.mp4" type="video/mp4">
+            <source src="/assets/earth.mp4" type="video/mp4">
         </video>
     </div>
 

@@ -1,13 +1,12 @@
 <script>
     import '../lib/styles/fonts.css';
-    import { Header, Footer } from "../lib/index.js";
+    import { Header } from "../lib/index.js";
 </script>
 
 <Header />
 
 <slot />
 
-<Footer />
 
 <style>
 
@@ -36,6 +35,8 @@
         --Paragraph-Font: 'Jubilat', serif;
         --Header-Font: 'Kirang Haerang', sans-serif;
 
+        --Header-Font2: 'Scorched Earth', sans-serif;
+
     }
 
     :global(body) {
@@ -48,7 +49,7 @@
     }
 
     :global(h1){
-        font-family: var(--Header-Font);
+        font-family: 'BlackOpsOne';
         font-size: 4em;
         padding: .5em;
         color: var(--Yellow-Primary);
