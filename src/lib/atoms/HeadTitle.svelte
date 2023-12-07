@@ -74,16 +74,22 @@
 
     .title-where{
         animation-delay:0.1s;
+        animation: drop 3.1s linear forwards ;
     }
 
     .title-the-real{
         gap: .4em;
-        animation-delay:0.3s;
+        animation-delay: 2s;
+        animation: drop 3.3s linear forwards ;
     }
 
     .title-legends{
         color: var(--Yellow-Primary);
-        animation-delay:0.5s;
+        animation: drop 3.5s linear forwards ;
+    }
+
+    .title-begin{
+        animation: drop 3.7s linear forwards ;
     }
 
     h1 > div{
@@ -91,9 +97,8 @@
     }
 
     .word{
-        
+        animation-delay: .2s;
         transform:translateY(-100vh);
-        animation:drop 3.5s cubic-bezier(0, 0, 0.35, 1) infinite;  
     }
 
     @keyframes drop {

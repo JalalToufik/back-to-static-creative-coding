@@ -2,7 +2,7 @@
     <ul class="contact-info">
         <li class="contact">CONTACT</li>
         <div class="link-contact">
-            <li><a class="tel" href="tel:+31 20 1234679">+31 20 1234679</a></li> 
+            <li><a class="tel" href="tel:+31 12 3456789">+31 12 3456789</a></li> 
         </div>
         <div class="link-contact">
             <li><a href="mailto:info@ink.org">info@ink.org</a></li>
@@ -25,8 +25,7 @@
 			}
 
 		.link-contact:hover a {
-				font-size: 1.5rem;
-				line-height: 0.8;
+				font-size: 1.2rem;
 				color: var(--candelLight);
 			}
 		
