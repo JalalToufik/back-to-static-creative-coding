@@ -2,16 +2,16 @@
 
 </script>
 
-<div class="hero-title">
-    <h1 class="hero-heading" aria-label="Where the real legends begin">
-        <div class="hero-title-where slide-first" aria-hidden="true">
+<div class="container">
+    <h1>
+        <div class="title-where word">
             <span>W</span>
             <span>H</span>
             <span>E</span>
             <span>R</span>
             <span>E</span>
         </div>
-        <div class="hero-title-the-real slide-first" aria-hidden="true">
+        <div class="title-the-real word">
             <div>
                 <span>T</span>
                 <span>H</span>
@@ -24,7 +24,7 @@
                 <span>L</span>
             </div>
         </div>
-        <div class="hero-title-legends" aria-hidden="true">
+        <div class="title-legends word">
             <span>L</span>
             <span>E</span>
             <span>G</span>
@@ -33,7 +33,7 @@
             <span>D</span>
             <span>S</span>
         </div>
-        <div class="hero-title-begin slide-second" aria-hidden="true">
+        <div class="title-begin word">
             <span>B</span>
             <span>E</span>
             <span>G</span>
@@ -46,19 +46,19 @@
 
 <style>
 
-    .hero-title {
+    .container {
         display: flex;
         flex-direction: column;
         width: 40%;
         transform: rotate(-2deg);
     }
 
-    .hero-heading {
+    h1 {
         font-weight: normal;
         color: var(--White);
     }
 
-    .hero-title span {
+    .container span {
         font-size: clamp(36px, 9vw, 128px);
         font-family: 'Kirang Haerang';
         text-transform: uppercase;
@@ -67,53 +67,61 @@
         line-height: 62%;
     }
 
-    .hero-title-where,
-    .hero-title-the-real,
-    .hero-title-the-real div,
-    .hero-title-legends,
-    .hero-title-begin {
+    .title-where, .title-the-real, .title-the-real div, .title-legends, .title-begin {
         display: flex;
         align-items: flex-end;
     }
 
-    .hero-title-the-real {
-        width: fit-content;
-        margin: 0 0 0 auto;
-        gap: 2vw;
+    .title-where{
+        animation-delay:0.1s;
     }
 
-    .hero-title-where span:nth-of-type(1),
-    .hero-title-where span:nth-of-type(2),
-    .hero-title-the-real>div:nth-of-type(2) span:nth-of-type(2) {
-        font-size: clamp(2rem, 11.5vw, 168px);
+    .title-the-real{
+        gap: .4em;
+        animation-delay:0.3s;
     }
 
-    .hero-title-legends {
+    .title-legends{
         color: var(--Yellow-Primary);
+        animation-delay:0.5s;
     }
 
-    .hero-title-legends span {
-        font-size: clamp(40px, 10vw, 144px);
+    h1 > div{
+        padding: .1em;
     }
 
-    .hero-title-legends span:nth-of-type(1),
-    .hero-title-legends span:nth-of-type(7) {
-        font-size: clamp(36px, 9vw, 128px);
+    .word{
+        
+        transform:translateY(-100vh);
+        animation:drop 3.5s cubic-bezier(0, 0, 0.35, 1) infinite;  
     }
 
-
-    .hero-title-legends span:nth-of-type(4) {
-        font-size: clamp(29px, 7.2vw, 104px);
+    @keyframes drop {
+        0% {
+            transform: translateY(-100vh);
+            animation-timing-function: ease-in; 
+        }
+        40% {
+            transform: translateY(-30vh);
+            animation-timing-function: ease-in; 
+        }
+        65% {
+            transform: translateY(-20vh);
+            animation-timing-function: ease-in; 
+        }
+        82% {
+            transform: translateY(-10vh);
+            animation-timing-function: ease-in; 
+        }
+        92% {
+            transform: translateY(-5vh);
+            animation-timing-function: ease-in; 
+        }
+        25%, 55%, 75%, 87%, 97%, 100% {
+            transform: translateY(0);
+            animation-timing-function: ease-out; 
+        }
     }
 
-    .hero-title-begin {
-        width: fit-content;
-        margin: 0 0 0 auto;
-    }
-
-    .hero-title-begin span:nth-of-type(2),
-    .hero-title-begin span:nth-of-type(3) {
-        font-size: clamp(32px, 7.8vw, 112px);
-    }
-
+    
 </style>

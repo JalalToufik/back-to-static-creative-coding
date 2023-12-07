@@ -22,7 +22,7 @@ export { default as FooterExtra } from './molecules/FooterExtra.svelte'
 // ========== Organisms ==========
 
 export { default as Header } from './organisms/Header.svelte'
-export { default as MainStory } from './organisms/MainStory.svelte'
+export { default as MainHead } from './organisms/MainHead.svelte'
 export { default as Footer } from './organisms/Footer.svelte'
 
 
