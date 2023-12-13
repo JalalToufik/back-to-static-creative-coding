@@ -4,7 +4,7 @@
 
 <nav>
 
-    <NavLogo href="/" alt='Logo from INK'></NavLogo>
+    <NavLogo href="/"></NavLogo>
 
     <input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Navigation menu" />
     <label class="menu-icon" for="menu-btn">
@@ -13,13 +13,13 @@
 
     <ul>
         <li>
-            <NavLink href="/about" title="About"></NavLink>
+            <NavLink href="/concept1" title="Concept 1"></NavLink>
         </li>
         <li>
-            <NavLink href="/promise" title="Promise"></NavLink>
+            <NavLink href="/concept2" title="Concept 2"></NavLink>
         </li>
         <li>
-            <BtnPrimary href="/becomeSponsor" title="Become sponsor"></BtnPrimary>
+            <BtnPrimary href="/concept3" title="Concept 3"></BtnPrimary>
         </li>
     </ul>
 

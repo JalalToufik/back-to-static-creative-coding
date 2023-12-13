@@ -1,12 +1,12 @@
 <script>
-        import { HeadTitle } from '$lib/index.js';
+        import { TitleConcept1 } from '$lib/index.js';
 </script>
 
 <!-- HEADER  -->
 
 <section class="header-main">
 
-    <HeadTitle />
+    <TitleConcept1 />
 
     <div class="hero-video">
         <video playsinline autoplay muted loop>
