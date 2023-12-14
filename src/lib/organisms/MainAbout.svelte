@@ -17,7 +17,7 @@
 
     section{
         position: absolute;
-        top: 15em;
+        top: 19em;
         z-index: 5;
         width: 100vw;
     }
@@ -34,7 +34,7 @@
 
         background-image: url(/assets/intro-mask.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center center;
 
         padding: 0 14vw;
@@ -52,21 +52,21 @@
     @media (min-width: 350px) {
 
         section{
-            top: 20em;
+            top: 25em;
         }
     }
 
     @media (min-width: 410px) {
 
         section{
-            top: 25em;
+            top: 28em;
         }
     }
 
     @media (min-width: 430px) {
 
         section{
-            top: 27em;
+            top: 30em;
         }
     }
 
@@ -102,6 +102,13 @@
 
         section{
             top: 62em;
+        }
+    }
+
+    @media (min-width: 1000px) {
+
+        section{
+            padding-top: 15em;
         }
     }
 
