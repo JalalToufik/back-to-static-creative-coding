@@ -3,7 +3,7 @@
 </script>
 
 
-<section class="container">
+<section>
     <div class="buildings" aria-label="building illustration">
         <h1>
             <div class="title-where word">
@@ -49,17 +49,24 @@
 
 <style>
 
-    .container {
+    section {
+        background-image: url(/assets/bg-brazillian-kids.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0em;
+        background-size: cover;
+        overflow: hidden;
+        height: clamp(16em, 120vw, 90em);
+        padding-top: 5em;
         display: flex;
-        flex-direction: row;
         justify-content: center;
-        height: 100%;
-
-        position: relative;
-        z-index: 3;
+        align-items: top;
     }
 
     .buildings{
+        position: relative;
+        z-index: 3;
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -70,6 +77,7 @@
         background-size: cover;
         width: clamp(14em, 70vw, 60em);
         height: clamp(14em, 70vw, 60em);
+
     }
 
     .buildings::before{
@@ -89,7 +97,7 @@
         font-family: var(--Header-Font);
     }
 
-    .container span {
+    section span {
         font-size: clamp(36px, 9vw, 128px);
         font-family: var(--Header-Font);
         text-transform: uppercase;

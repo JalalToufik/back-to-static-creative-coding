@@ -31,11 +31,15 @@
     /* header */
 
     nav {
-        background-color: var(--Bg-Dark-Blue);
         position: fixed;
         width: 100%;
-        z-index: 2;
-
+        padding-left: 1.5em;
+        z-index: 1;
+        background-color: transparent;
+        /* height: 100vh;
+        box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.75) inset;
+        -webkit-box-shadow: 0px 200px 186px -32px rgba(0,0,0,0.75) inset;
+        -moz-box-shadow: 0px 200px 186px -32px rgba(0,0,0,0.75) inset; */
     }
 
     nav ul {
@@ -68,8 +72,8 @@
         align-items: center;
         justify-content: center;
         float: right;
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
         position: relative;
         top: 1.3em;
         right: 1em;
@@ -165,6 +169,11 @@
 
         nav .menu-icon {
             display: none;
+        }
+
+        nav .menu-icon {
+            width: 3em;
+            height: 3em;
         }
 
     }
