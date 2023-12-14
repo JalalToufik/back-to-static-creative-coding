@@ -7,11 +7,12 @@ export { default as BtnPrimary } from './atoms/BtnPrimary.svelte'
 export { default as BtnSecondary } from './atoms/BtnSecondary.svelte'
 export { default as NavLink } from './atoms/NavLink.svelte'
 export { default as TitleConcept1 } from './atoms/TitleConcept1.svelte'
-export { default as TitleConcept2 } from './atoms/TitleConcept2.svelte'
 export { default as FooterButton } from './atoms/FooterButton.svelte'
 
 
 // ========== Molecules ==========
+
+export { default as TitleConcept2 } from './molecules/TitleConcept2.svelte'
 
 export { default as FooterLinks } from './molecules/FooterLinks.svelte'
 export { default as FooterContact } from './molecules/FooterContact.svelte'

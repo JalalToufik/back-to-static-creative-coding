@@ -52,7 +52,6 @@
     }
 
     :global(h1){
-        font-family: 'BlackOpsOne';
         font-size: 4em;
         padding: .5em;
         color: var(--Yellow-Primary);

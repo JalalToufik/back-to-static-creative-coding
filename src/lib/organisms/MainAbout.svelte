@@ -2,7 +2,7 @@
         import { BtnSecondary } from '$lib/index.js';
 </script>
 
-    <section>
+    <section id="about-section">
         <div class="intro">
             <p class="intro-text" > 
                 We are dedicated to providing these children with a second chance in life, 
@@ -108,7 +108,7 @@
     @media (min-width: 1000px) {
 
         section{
-            padding-top: 15em;
+            padding-top: 5em;
         }
     }
 

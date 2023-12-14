@@ -41,6 +41,7 @@
     h1 {
         color: var(--White);
         font-family: var(--Header-Font2);
+        font-family: 'BlackOpsOne';
     }
 
     .container span {
