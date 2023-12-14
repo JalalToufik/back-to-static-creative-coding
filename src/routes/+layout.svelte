@@ -38,6 +38,9 @@
         --Header-Font2: 'Scorched Earth', sans-serif;
 
     }
+    :global(html) {
+        scroll-behavior: smooth;
+    }
 
     :global(body) {
         background-color: var(--Bg-Dark-Blue);

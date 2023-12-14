@@ -13,7 +13,6 @@ export { default as FooterButton } from './atoms/FooterButton.svelte'
 
 // ========== Molecules ==========
 
-export { default as HeaderNav } from './molecules/HeaderNav.svelte'
 export { default as FooterLinks } from './molecules/FooterLinks.svelte'
 export { default as FooterContact } from './molecules/FooterContact.svelte'
 export { default as FooterExtra } from './molecules/FooterExtra.svelte'

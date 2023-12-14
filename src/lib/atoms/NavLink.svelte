@@ -3,7 +3,7 @@
 </script>
 
 
-	<a class="nav-link" {href}>{title}</a>
+    <a class="nav-link" {href}>{title}</a>
 
 
 <style>

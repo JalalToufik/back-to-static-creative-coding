@@ -4,24 +4,27 @@
 
 <!-- HEADER  -->
 
-<section class="header-main">
+<section class="head-main">
 
-<TitleConcept2 />
-
-
+    <TitleConcept2 />
 
 </section>
 
 <style>
 /* ============== HEADER - SECTION START ============== */
 
-.header-main {
-    display: inline-flex;
+.head-main {
+    background-image: url(/assets/bg-brazillian-kids.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     overflow: hidden;
-    padding-top: 6em;
-    padding-left: 10em;
-    padding-bottom: 10em;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-top: 5em;
 }
+
+
 
 /* ============== HEADER VIDEO ============== */
 

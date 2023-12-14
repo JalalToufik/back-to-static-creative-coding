@@ -4,7 +4,7 @@
 
     <a {href}> 
         {title}
-        <span><span/>
+        <span>
     </a>
 
 <style>
@@ -39,12 +39,8 @@
             height: 28px;
             display: block;
             position: absolute;
-            top: 40px;
-            right: 62px;
-        }
-
-        a span{
-            right: 56px;
+            top: 55px;
+            right: 44px;
         }
 
     }
