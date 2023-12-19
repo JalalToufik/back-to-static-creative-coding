@@ -37,7 +37,7 @@
         padding-left: 1.5em;
         z-index: 1;
         background-color: transparent;
-        /* height: 100vh; */
+        height: 100vh;
         box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
         -webkit-box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
         -moz-box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
@@ -148,7 +148,7 @@
             position: absolute;
             z-index: 1;
             background-color: transparent;
-            /* height: 100vh; */
+            height: 100vh;
             box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
             -webkit-box-shadow: 0px 200px 186px -32px rgba(0,0,0,0.16) inset;
             -moz-box-shadow: 0px 200px 186px -32px rgba(0,0,0,0.16) inset;
