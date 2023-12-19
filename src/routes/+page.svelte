@@ -1,10 +1,10 @@
 <script>
     import {  
-        Concept2,  
+        Concept3,  
     } from "$lib/index.js";
 </script>
 
 <svelte:head> <title>INK - Legends</title> </svelte:head>
 
-<Concept2 />
+<Concept3 />
 

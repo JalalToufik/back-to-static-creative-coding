@@ -1,9 +1,8 @@
 <script>
     import '../lib/styles/fonts.css';
-    import { Header } from "../lib/index.js";
+
 </script>
 
-<Header />
 
 <slot />
 
@@ -51,14 +50,5 @@
         overflow-y: scroll;
     }
 
-    :global(h1){
-        font-size: 4em;
-        padding: .5em;
-        color: var(--Yellow-Primary);
-    }
-
-    :global(h2){
-        font-family: var( --Paragraph-Font);
-    }
 
 </style>

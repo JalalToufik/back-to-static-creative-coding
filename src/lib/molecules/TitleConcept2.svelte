@@ -61,6 +61,11 @@
 
 <style>
 
+    h1{
+        font-size: 4em;
+        padding: 1.5em;
+        color: var(--Yellow-Primary);
+    }
     section {
         background-image: url(/assets/bg-brazillian-kids.jpg);
         background-repeat: no-repeat;
@@ -87,8 +92,8 @@
         background-position-x: -1.5em;
         background-repeat: no-repeat;
         background-size: cover;
-        width: clamp(14em, 70vw, 60em);
-        height: clamp(14em, 70vw, 60em);
+        width: clamp(14em, 90vw, 60em);
+        height: clamp(14em, 90vw, 60em);
     }
 
     .circle{
@@ -120,7 +125,7 @@
 
 
     h1 {
-        padding: 1.5em;
+        /* padding: 1.5em; */
         position: relative;
         display: flex;
         flex-direction: column;
@@ -131,7 +136,7 @@
     h1 span {
         position: relative;
         display: inline-flex;
-        font-size: clamp(36px, 9vw, 128px);
+        font-size: clamp(1em, 7vw, 128px);
         font-family: var(--Header-Font);
         text-transform: uppercase;
         display: flex;
@@ -172,22 +177,22 @@
     .title-where span:nth-of-type(1),
     .title-where span:nth-of-type(2),
     .title-the-real>div:nth-of-type(2) span:nth-of-type(2) {
-        font-size: clamp(2rem, 11.5vw, 168px);
+        font-size: clamp(1em, 9.5vw, 10,5em);
     }
 
 
     .title-legends span {
-        font-size: clamp(40px, 10vw, 144px);
+        font-size: clamp(1em, 8vw, 144px);
     }
 
     .title-legends span:nth-of-type(1),
     .title-legends span:nth-of-type(7) {
-        font-size: clamp(36px, 9vw, 128px);
+        font-size: clamp(1em, 7vw, 128px);
     }
 
 
     .title-legends span:nth-of-type(4) {
-        font-size: clamp(29px, 7.2vw, 104px);
+        font-size: clamp(1em, 5.2vw, 104px);
     }
 
     .title-begin {
@@ -197,7 +202,7 @@
 
     .title-begin span:nth-of-type(2),
     .title-begin span:nth-of-type(3) {
-        font-size: clamp(32px, 7.8vw, 112px);
+        font-size: clamp(1em, 5.8vw, 112px);
     }
 
     h1 > div{
