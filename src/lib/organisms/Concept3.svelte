@@ -11,7 +11,9 @@
         </h1>
         <div class="kader">
             <div class="box">
-                <div class="box-inner"></div>
+                <div class="box-inner">
+                    <h2>Wave</h2>
+                </div>
             </div>
         </div>
         <h1>
@@ -85,9 +87,20 @@
 
     
     .box-inner {
+        display: flex;
+        flex-direction: column-reverse;
         position: relative;
         width: 100%;
         height: 100%;
+    }
+
+    h2{
+        text-transform: uppercase;
+        text-align: right;
+        padding: .5em 1em;
+        font-size: 2em;
+        font-family: Dela Gothic One;
+    
     }
 
     .box:before,
