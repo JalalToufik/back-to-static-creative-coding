@@ -26,8 +26,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
+:root{
+    --dark-blue: lch(6 10 223);
+    --regular-blue: lch(54 30 216);
+    --light-blue: lch(73 17 215);
+}
+
     section {
-        background-color: #001A26;
+        background-color: var(--dark-blue);
         height: 100vh;
         padding-top: 5em;
     }
@@ -50,7 +56,7 @@
         text-align: center;
         height: 3.5em;
         color: #001A26;
-        -webkit-text-stroke: 2px #82C0CC; 
+        -webkit-text-stroke: 2px var(--light-blue); 
     }
 
     h1:nth-of-type(2){
@@ -59,10 +65,10 @@
 
     .kader{
         margin: 0 auto;
-        border-top: solid 2px #70E7FF;
+        border-top: solid 4px var(--regular-blue);
         height: 100vh;
         width: 28em;
-        border-bottom: solid 2px #70E7FF;
+        border-bottom: solid 4px var(--regular-blue);
     }
 
     .box {
@@ -97,15 +103,15 @@
     h2{
         text-transform: uppercase;
         text-align: right;
-        padding: .5em 1em;
-        font-size: 2em;
+        padding: .25em .5em;
+        font-size: 2.5em;
         font-family: Dela Gothic One;
     
     }
 
     .box:before,
     .box-inner {
-        background-color: rgb(25, 122, 141);
+        background-color: var(--regular-blue);
         
         background-image: 
             url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%1C526C' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%1C526C' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
