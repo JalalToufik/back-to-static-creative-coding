@@ -97,14 +97,14 @@
 
     .kader{
         margin: 0 auto;
-        height: 35em;
+        height: 26em;
         width: 28em;
     }
 
     .box {
         position: relative;
         width: 28em;
-        height: 32em;
+        height: 22em;
         padding-top: 1em;
         padding-bottom: 3.5em;
     }
@@ -201,7 +201,7 @@
 
         .kader, .box{
             width: 38.8em;
-            height: 34em
+            height: 28em
         }
 
         .box{
