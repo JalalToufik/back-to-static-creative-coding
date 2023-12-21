@@ -33,7 +33,6 @@
     nav {
         position: fixed;
         width: 100%;
-        padding-left: 1.5em;
         z-index: 1;
         background-color: transparent;
         height: 100vh;
@@ -142,8 +141,6 @@
     @media (min-width: 48em) {
 
         nav{
-            padding-left: 2.5em;
-            padding-top: 1em;
             position: absolute;
             z-index: 1;
             background-color: transparent;
@@ -156,7 +153,7 @@
         nav ul{
             display: flex;
             align-items: center;
-            padding: 0 3em;
+            padding: 0 2em;
             clear: none;
             float: right;
             max-height: none;

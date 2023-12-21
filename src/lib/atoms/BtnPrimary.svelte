@@ -39,8 +39,8 @@
             height: 28px;
             display: block;
             position: absolute;
-            top: 55px;
-            right: 44px;
+            top: 38px;
+            right: 30px;
         }
 
     }
