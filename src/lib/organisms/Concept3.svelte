@@ -38,16 +38,12 @@
         --light-blue: lch(93 22.34 211.51);
     }
 
-    :global(body) {
-        background-color: var(--dark-blue);
-    }
-
     section {
         background-image: url(/assets/ocean.avif);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
         padding-top: 5em;
+        height: 100vh;
     }
 
     section::before{
@@ -64,9 +60,7 @@
         -webkit-backdrop-filter: blur(25px);
     }
 
-
     section > div {
-        height: 85vh;
         margin: 1em 4em;
         display: flex;
         flex-direction: column;
@@ -75,7 +69,7 @@
 
     h1{
         display: inline-block;
-        font-size: 3.5em;
+        font-size: 3.6em;
         text-transform: uppercase;
         font-family: Dela Gothic One;
         text-align: center;
@@ -103,23 +97,21 @@
 
     .kader{
         margin: 0 auto;
-        height: 100%;
+        height: 35em;
         width: 28em;
     }
 
     .box {
         position: relative;
         width: 28em;
-        height: 60vh;
-        padding-top: 2em;
-        padding-bottom: 3em;
+        height: 32em;
+        padding-top: 1em;
+        padding-bottom: 3.5em;
     }
 
     .box:before {
         position: absolute;
         content: '';
-        width: calc(100% + 30px);
-        height: calc(100% + 30px);
         top: 50%; left: 50%;
         transform: translate(-50%, -50%) scale(.7);
         filter: blur(0);
@@ -167,14 +159,15 @@
         background-color: var(--regular-blue);
         
         background-image: 
-            url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%1C526C' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%1C526C' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
-            url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%70E7FF' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%70E7FF' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
-            url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%D7F0F3' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23fcc900' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e");
+            url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%3DBAE1' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%3DBAE1' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
+            url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%70E7FF' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%3DBAE1' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
+            url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%70E7FF' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%3DBAE1' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
+            url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%D7F0F3' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%3DBAE1' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e");
         background-repeat: repeat-x;
         background-size: 1400px 80%;
         background-position: 0 130%, -50px 130%, 500px 130%;
         
-        animation: 20s waves linear infinite forwards;
+        animation: 50s waves linear infinite forwards;
     }
 
     @keyframes waves {
@@ -195,6 +188,50 @@
     p{
         font-family: var(--Apercu-Font);
         font-size: .85em;
+        padding: .5em;
+    }
+
+    /* 48em = 768px */
+
+    @media (min-width: 48em) {
+
+        h1{
+            font-size: 5em;
+        }
+
+        .kader, .box{
+            width: 38.8em;
+            height: 35em
+        }
+
+        .box{
+            padding-top: 3em;
+            padding-bottom: 7.5em;
+        }
+
+        .box-inner::before{
+            width: 2em;
+            height: 7em;
+            bottom: 1.5em;
+            left: 1.5em;
+        }
+
+        .box-inner::after{
+            width: 2em;
+            height: 7em;
+            top: 1.5em;
+            right: 1.5em;
+        }
+
+        h2{
+            font-size: 3.5em;
+        }
+
+        p{
+            font-size: 1em;
+            margin-bottom: 5em;
+        }
+
     }
 
 </style>

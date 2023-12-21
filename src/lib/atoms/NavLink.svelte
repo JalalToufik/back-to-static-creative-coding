@@ -24,7 +24,7 @@
         color: var(--light-blue);
     }
 
-    /* a::after{
+    a::after{
         content: '';
         width: 0;
         height: 3px;
@@ -39,7 +39,7 @@
 
     a:hover::after{
         width: 100%;
-    } */
+    }
 
     @media (min-width: 48em) {
 

@@ -122,7 +122,9 @@
 
     nav .menu-btn:checked ~ ul {
         max-height: 60em;
-        border-bottom: 3px solid black;
+        border-bottom: 3px solid white;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
     }
 
     nav .menu-btn:checked ~ .menu-icon .navicon {
@@ -147,8 +149,6 @@
     @media (min-width: 48em) {
 
         nav{
-            padding-left: 2.5em;
-            padding-top: 1em;
             position: absolute;
             z-index: 1;
             background-color: transparent;
@@ -161,7 +161,7 @@
         nav ul{
             display: flex;
             align-items: center;
-            padding: 0 3em;
+            padding: 0 1em;
             clear: none;
             float: right;
             max-height: none;
