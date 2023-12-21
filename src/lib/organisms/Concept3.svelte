@@ -201,7 +201,7 @@
 
         .kader, .box{
             width: 38.8em;
-            height: 35em
+            height: 34em
         }
 
         .box{
