@@ -43,9 +43,27 @@
     }
 
     section {
+        background-image: url(/assets/ocean.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 100vh;
         padding-top: 5em;
     }
+
+    section::before{
+        content: '';
+        display: block;
+        height: 100vh;
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        bottom: 0;
+        background-color: rgb(2 10 11 / 84%);
+        backdrop-filter: invert(70%);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(25px);
+    }
+
 
     section > div {
         height: 85vh;
@@ -62,27 +80,38 @@
         font-family: Dela Gothic One;
         text-align: center;
         height: 1.5em;
-        color: #001A26;
-        -webkit-text-stroke: 2px var(--light-blue); 
+        margin: 0 auto;
+        color: #ffffff;
+        width: fit-content;
+        border-bottom: solid 4px var(--regular-blue);
+        position: relative;
     }
 
     h1:nth-of-type(2){
         transform: rotateX(180deg);
     }
 
+    h2{
+        text-transform: uppercase;
+        text-align: right;
+        padding: .25em .5em;
+        font-size: 2.5em;
+        font-family: Dela Gothic One;
+        -webkit-text-stroke: 2px var(--regular-blue); 
+        color: #001A26;
+    }
+
     .kader{
         margin: 0 auto;
-        border-top: solid 4px var(--regular-blue);
         height: 100%;
         width: 28em;
-        border-bottom: solid 4px var(--regular-blue);
     }
 
     .box {
         position: relative;
         width: 28em;
         height: 60vh;
-        padding-top: 3em;
+        padding-top: 2em;
         padding-bottom: 3em;
     }
 
@@ -132,14 +161,6 @@
         right: 0.5em;
     }
 
-    h2{
-        text-transform: uppercase;
-        text-align: right;
-        padding: .25em .5em;
-        font-size: 2.5em;
-        font-family: Dela Gothic One;
-    
-    }
 
     .box:before,
     .box-inner {

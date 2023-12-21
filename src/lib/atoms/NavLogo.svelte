@@ -13,6 +13,12 @@
 
 <style>
 
+    a{
+        padding-left: 1em;
+        display: inline-block;
+        height: auto;
+    }
+
     .logo{
         height: 5em;
         width:  5em;

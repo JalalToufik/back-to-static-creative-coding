@@ -34,10 +34,9 @@
         display: block;
         position: fixed;
         width: 100%;
-        padding-left: 1.5em;
         z-index: 1;
         background-color: transparent;
-        /* height: 100vh; */
+        height: 100vh;
         box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
         -webkit-box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
         -moz-box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
@@ -48,6 +47,10 @@
         padding: 0;
         list-style: none;
         overflow: hidden;
+        background-color: rgb(2 10 11 / 20%);
+        backdrop-filter: invert(70%);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(25px);
 
         clear: both;
         max-height: 0;
@@ -119,6 +122,7 @@
 
     nav .menu-btn:checked ~ ul {
         max-height: 60em;
+        border-bottom: 3px solid black;
     }
 
     nav .menu-btn:checked ~ .menu-icon .navicon {
@@ -148,7 +152,7 @@
             position: absolute;
             z-index: 1;
             background-color: transparent;
-            /* height: 100vh; */
+            height: 100vh;
             box-shadow: 0px 200px 186px -32px rgba(0, 0, 0, 0.16) inset;
             -webkit-box-shadow: 0px 200px 186px -32px rgba(0,0,0,0.16) inset;
             -moz-box-shadow: 0px 200px 186px -32px rgba(0,0,0,0.16) inset;
@@ -161,6 +165,11 @@
             clear: none;
             float: right;
             max-height: none;
+
+            background-color: transparent;
+            backdrop-filter: 0;
+            backdrop-filter: 0;
+            -webkit-backdrop-filter: 0;
         }
 
         nav li {
